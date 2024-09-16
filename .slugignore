@@ -1,0 +1,8 @@
+*.log
+*.md
+__pycache__
+*.pyc
+*.pyo
+tests/
+docs/
+.env
