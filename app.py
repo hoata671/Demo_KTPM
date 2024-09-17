@@ -5,7 +5,7 @@ import io
 import random
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Đặt SECRET_KEY để mã hóa cookie
+app.secret_key = '140388'  # Đặt SECRET_KEY để mã hóa cookie
 
 # Cấu hình CORS
 CORS(app)
@@ -53,4 +53,4 @@ def validate_captcha():
         return jsonify({'status': 'failed'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
